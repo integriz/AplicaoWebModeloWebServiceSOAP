@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
   <services>
-    <service name="WebServiceSOAPClienteComAutenticacaoUsuarioSenha">
-      <implementation-class>com.mmarques.controller.WebServiceSOAPClienteComAutenticacaoUsuarioSenha</implementation-class>
-    </service>
     <service name="WebServiceSOAPClienteComAutenticacaoUsuarioSenha2">
-      <implementation-class>com.mmarques.controller.WebServiceSOAPClienteComAutenticacaoUsuarioSenha2</implementation-class>
+      <implementation-class>com.mmarques.resource.WebServiceSOAPClienteComAutenticacaoUsuarioSenha2</implementation-class>
+    </service>
+    <service name="WebServiceSOAPClienteComAutenticacaoUsuarioSenha">
+      <implementation-class>com.mmarques.resource.WebServiceSOAPClienteComAutenticacaoUsuarioSenha</implementation-class>
     </service>
     <service name="WebServiceSOAPEnviaRecebeArquivo">
-      <implementation-class>com.mmarques.controller.WebServiceSOAPEnviaRecebeArquivo</implementation-class>
+      <implementation-class>com.mmarques.resource.WebServiceSOAPEnviaRecebeArquivo</implementation-class>
     </service>
   </services>
   <clients/>

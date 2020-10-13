@@ -19,27 +19,27 @@
             <classpath path="${java.home}/../lib/tools.jar:${build.classes.dir}:${j2ee.platform.wsgen.classpath}:${javac.classpath}"/>
         </taskdef>
     </target>
-    <target name="wsgen-WebServiceSOAPClienteComAutenticacaoUsuarioSenha" depends="wsgen-init">
+    <target name="wsgen-WebServiceSOAPClienteComAutenticacaoUsuarioSenha2" depends="wsgen-init">
         <copy todir="${build.classes.dir}/META-INF">
-            <fileset dir="${webinf.dir}" includes="wsit-com.mmarques.controller.WebServiceSOAPClienteComAutenticacaoUsuarioSenha.xml"/>
+            <fileset dir="${webinf.dir}" includes="wsit-com.mmarques.resource.WebServiceSOAPClienteComAutenticacaoUsuarioSenha2.xml"/>
         </copy>
-        <wsgen sourcedestdir="${build.generated.sources.dir}/jax-ws" resourcedestdir="${build.generated.sources.dir}/jax-ws/resources/" destdir="${build.generated.sources.dir}/jax-ws" verbose="true" keep="true" genwsdl="true" sei="com.mmarques.controller.WebServiceSOAPClienteComAutenticacaoUsuarioSenha" xendorsed="true">
+        <wsgen sourcedestdir="${build.generated.sources.dir}/jax-ws" resourcedestdir="${build.generated.sources.dir}/jax-ws/resources/" destdir="${build.generated.sources.dir}/jax-ws" verbose="true" keep="true" genwsdl="true" sei="com.mmarques.resource.WebServiceSOAPClienteComAutenticacaoUsuarioSenha2" xendorsed="true">
             <classpath path="${java.home}/../lib/tools.jar:${build.classes.dir}:${j2ee.platform.wsgen.classpath}:${javac.classpath}"/>
         </wsgen>
     </target>
-    <target name="wsgen-WebServiceSOAPClienteComAutenticacaoUsuarioSenha2" depends="wsgen-init">
+    <target name="wsgen-WebServiceSOAPClienteComAutenticacaoUsuarioSenha" depends="wsgen-init">
         <copy todir="${build.classes.dir}/META-INF">
-            <fileset dir="${webinf.dir}" includes="wsit-com.mmarques.controller.WebServiceSOAPClienteComAutenticacaoUsuarioSenha2.xml"/>
+            <fileset dir="${webinf.dir}" includes="wsit-com.mmarques.resource.WebServiceSOAPClienteComAutenticacaoUsuarioSenha.xml"/>
         </copy>
-        <wsgen sourcedestdir="${build.generated.sources.dir}/jax-ws" resourcedestdir="${build.generated.sources.dir}/jax-ws/resources/" destdir="${build.generated.sources.dir}/jax-ws" verbose="true" keep="true" genwsdl="true" sei="com.mmarques.controller.WebServiceSOAPClienteComAutenticacaoUsuarioSenha2" xendorsed="true">
+        <wsgen sourcedestdir="${build.generated.sources.dir}/jax-ws" resourcedestdir="${build.generated.sources.dir}/jax-ws/resources/" destdir="${build.generated.sources.dir}/jax-ws" verbose="true" keep="true" genwsdl="true" sei="com.mmarques.resource.WebServiceSOAPClienteComAutenticacaoUsuarioSenha" xendorsed="true">
             <classpath path="${java.home}/../lib/tools.jar:${build.classes.dir}:${j2ee.platform.wsgen.classpath}:${javac.classpath}"/>
         </wsgen>
     </target>
     <target name="wsgen-WebServiceSOAPEnviaRecebeArquivo" depends="wsgen-init">
         <copy todir="${build.classes.dir}/META-INF">
-            <fileset dir="${webinf.dir}" includes="wsit-com.mmarques.controller.WebServiceSOAPEnviaRecebeArquivo.xml"/>
+            <fileset dir="${webinf.dir}" includes="wsit-com.mmarques.resource.WebServiceSOAPEnviaRecebeArquivo.xml"/>
         </copy>
-        <wsgen sourcedestdir="${build.generated.sources.dir}/jax-ws" resourcedestdir="${build.generated.sources.dir}/jax-ws/resources/" destdir="${build.generated.sources.dir}/jax-ws" verbose="true" keep="true" genwsdl="true" sei="com.mmarques.controller.WebServiceSOAPEnviaRecebeArquivo" xendorsed="true">
+        <wsgen sourcedestdir="${build.generated.sources.dir}/jax-ws" resourcedestdir="${build.generated.sources.dir}/jax-ws/resources/" destdir="${build.generated.sources.dir}/jax-ws" verbose="true" keep="true" genwsdl="true" sei="com.mmarques.resource.WebServiceSOAPEnviaRecebeArquivo" xendorsed="true">
             <classpath path="${java.home}/../lib/tools.jar:${build.classes.dir}:${j2ee.platform.wsgen.classpath}:${javac.classpath}"/>
         </wsgen>
     </target>

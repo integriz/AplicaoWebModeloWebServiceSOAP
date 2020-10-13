@@ -1,4 +1,4 @@
-package com.mmarques.controller;
+package com.mmarques.resource;
 
 import com.mmarques.bd.ClienteBD;
 import com.mmarques.vo.Cliente;

@@ -1,4 +1,4 @@
-package com.mmarques.controller;
+package com.mmarques.resource;
 
 import java.io.*;
 import javax.jws.WebMethod;
